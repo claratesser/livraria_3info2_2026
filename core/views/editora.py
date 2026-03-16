@@ -4,6 +4,6 @@ from core.models import Editora
 from core.serializers import EditoraSerializer
 
 
-class EditoraViewset(ModelViewSet):
+class EditoraViewSet(ModelViewSet):
     queryset = Editora.objects.all()
     serializer_class = EditoraSerializer
